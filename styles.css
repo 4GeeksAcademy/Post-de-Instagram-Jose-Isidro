@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+    margin: auto;
+}
+.post{
+    width: 500px;
+    height: 800px;
+    justify-content: center;
+    margin: auto;
+}
+
+.post-header i{
+    display: flex;
+}
+
+.post-header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.post-imagen img{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+}

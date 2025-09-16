@@ -62,3 +62,7 @@ body{
 .texto{
     padding: 15px;
 }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

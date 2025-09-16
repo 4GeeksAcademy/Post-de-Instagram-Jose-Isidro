@@ -8,36 +8,57 @@ body{
 }
 .post{ 
     background-color: white;
-    width: 500px;
-    height: auto;
+    width: 450px;
     justify-content: center;
     margin: auto;
 }
-
-.titulo{
+.perfil{
     display: flex;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
-    
 }
-
-.post-header i{
-    padding: 10px;
+.titulo{
+    text-align: left;
+    flex-direction: column;
     display: flex;
-    width: 10px;
-    justify-content: space-around;
-    
+}
+.titulo p{
+    margin: 0;
+}
+.titulo h3{
+    margin: 0;
+}
+.post-header i{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .post-header{
-    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .post-imagen img{
+    padding-bottom: 20px;
     margin: auto;
     justify-content: center;
     display: flex;
-    width: 500px;
+    width: 450px;
+}
+
+.iconos{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    padding: 15px;
 }

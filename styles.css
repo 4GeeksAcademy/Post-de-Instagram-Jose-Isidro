@@ -1,16 +1,32 @@
 body{
+    padding: 100px;
     justify-content: center;
     margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
 }
-.post{
+.post{ 
+    background-color: white;
     width: 500px;
-    height: 800px;
+    height: auto;
     justify-content: center;
     margin: auto;
 }
 
-.post-header i{
+.titulo{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.post-header i{
+    padding: 10px;
+    display: flex;
+    width: 10px;
+    justify-content: space-around;
+    
 }
 
 .post-header{
